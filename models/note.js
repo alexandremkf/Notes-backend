@@ -1,4 +1,3 @@
-// models/note.js
 const mongoose = require('mongoose')
 
 const noteSchema = new mongoose.Schema({
@@ -7,7 +6,7 @@ const noteSchema = new mongoose.Schema({
     required: true,
     minlength: 5
   },
-  important: Boolean
+  important: Boolean,
 })
 
 noteSchema.set('toJSON', {

@@ -1,4 +1,3 @@
-// utils/logger.js
 const info = (...params) => {
   console.log(...params)
 }

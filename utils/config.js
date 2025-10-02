@@ -1,7 +1,6 @@
-// utils/config.js
-require('dotenv').config()
+require('dotenv').config() // carrega variáveis do .env
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT
 const MONGODB_URI = process.env.MONGODB_URI
 
-module.exports = { PORT, MONGODB_URI }
+module.exports = { MONGODB_URI, PORT }
